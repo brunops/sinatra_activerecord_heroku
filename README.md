@@ -1,6 +1,6 @@
 # Sinatra / ActiveRecord / Heroku
 
-This is a tutorial guiding through the steps to set an Sinatra application with ActiveRecord in Heroku. Supporting different databases for each environment.
+This tutorial aims to guide through the steps of setting up an Sinatra application with ActiveRecord in Heroku. Supporting different databases for each environment with as minimum code as possible.
 
 ## Bare bones steps
 * 1. Clone repo
