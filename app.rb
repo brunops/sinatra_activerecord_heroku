@@ -1,4 +1,5 @@
 require 'sinatra'
+require './db/config'
 
 class User < ActiveRecord::Base
 end
