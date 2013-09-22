@@ -1,2 +1,2 @@
-### Sinatra / ActiveRecord / Heroku
-## Bare bones
+# Sinatra / ActiveRecord / Heroku
+Bare bones
