@@ -5,8 +5,8 @@
 
 ### Development Environment
 * 3. Run `rake db:migrate` to create your database and user table
-* 4. Let's populate the users database with `rake db:seed`
-* 5. `ruby app.rb` to start your webserver
+* 4. Populate the users database with `rake db:seed`
+* 5. Run `ruby app.rb` to start your webserver
 * 6. Access `http://localhost:4567`
 * 7. Profit!
 
@@ -23,5 +23,7 @@ environment
 * 1. If you are having troubles pushing to Heroku, you may be lacking the Postgres add-on in your app, type `heroku addons:add heroku-postgresql:dev` to install it
 
 ### Notes
-* Everything should be executed in your cloned root folder
+* Everything must be executed in your cloned folder
+* Must have an account in [Heroku](http://heroku.com) (it's free!)
+* [Heroku toolbelt](https://toolbelt.heroku.com/) must be installed
 * Added Users can be seen in `/users` route
