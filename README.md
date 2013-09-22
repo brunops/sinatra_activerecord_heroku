@@ -1,14 +1,27 @@
 # Sinatra / ActiveRecord / Heroku
 ## Bare bones steps
 * 1. Clone repo
-* 2. Run bundle
+* 2. Run bundle with `bundle`
 
 ### Development Environment
 * 3. Run `rake db:migrate` to create your database and user table
+* 4. Let's populate the users database with `rake db:seed`
+* 5. `ruby app.rb` to start your webserver
+* 6. Access `http://localhost:4567`
+* 7. Profit!
 
 ### Heroku Environment
 * 3. Create your heroku app with `heroku create`
-* 4. Add Postgres add-on to your Heroku application with `heroku addons:add heroku-postgresql:dev`
-* 5. Push your project to Heroku with `git push heroku master`
-* 6. Run `heroku run rake db:migrate` to create your database and user table on heroku environment
-* 7. Profit! `heroku open`
+* 4. Push your project to Heroku with `git push heroku master`
+* 5. Run `heroku run rake db:migrate` to create your database and user table on heroku
+environment
+* 6. Let's populate the users database with `heroku run rake db:seed`
+* 7. `heroku open` To see your newly created app
+* 8. Profit!
+
+### Troubleshooting
+* 1. If you are having troubles pushing to Heroku, you may be lacking the Postgres add-on in your app, type `heroku addons:add heroku-postgresql:dev` to install it
+
+### Notes
+* Everything should be executed in your cloned root folder
+* Added Users can be seen in `/users` route
